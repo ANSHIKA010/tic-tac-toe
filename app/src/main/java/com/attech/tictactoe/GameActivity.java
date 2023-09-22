@@ -53,7 +53,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     private int player1points,player2points;
     private static int rcount = 0;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
