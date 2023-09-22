@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#33A9F680"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/blog_card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/blog_title"
+            android:ems="10"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textColor="#B4E31414"
+            android:textSize="36sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/blog_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/blog_title"
+            android:layout_marginTop="54dp"
+            android:ems="24"
+            android:paddingBottom="40dp"
+            android:text="Body of blog"
+            android:textColor="#7E7777"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/written_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="written by"
+            android:textColor="#E30AAD"
+            android:layout_alignBottom="@+id/blog_body"
+            android:layout_alignEnd="@+id/blog_title"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/blog_body"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="330dp"
+            android:layout_marginBottom="1dp"
+            app:srcCompat="@drawable/ic_to_like" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
