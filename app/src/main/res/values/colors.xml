@@ -12,5 +12,18 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+
+
+    <!-- Standard Colors -->
     <color name="white">#FFFFFFFF</color>
+    <color name="lighter_grey">#FFF1F1F1</color>
+    <color name="light_grey">#FFE3E3E3</color>
+    <color name="grey">#FFADADAD</color>
+
+    <color name="blue">#FF46A3FF</color>
+
+
+
+
+
 </resources>

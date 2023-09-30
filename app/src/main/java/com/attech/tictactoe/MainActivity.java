@@ -31,13 +31,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     private  FirebaseAuth auth;
     private FirebaseDatabase database;
     private static String uID;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

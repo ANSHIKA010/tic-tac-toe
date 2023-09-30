@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.attech.o_x.LoginActivity"
+    tools:context="com.attech.tictactoe.LoginActivity"
     android:background="@drawable/intro"
     android:onClick="hidesoftkeyboard">
 
